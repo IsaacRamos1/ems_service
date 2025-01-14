@@ -1,0 +1,497 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_8bc43bd902b7dcd30bd9abf6886beb4c {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_8bc43bd902b7dcd30bd9abf6886beb4c" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_8bc43bd902b7dcd30bd9abf6886beb4c = L.map(
+                "map_8bc43bd902b7dcd30bd9abf6886beb4c",
+                {
+                    center: [-9.065192434847171, -44.34976568682047],
+                    crs: L.CRS.EPSG3857,
+                    ...{
+  "zoom": 12,
+  "zoomControl": true,
+  "preferCanvas": false,
+}
+
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_f91e3e5c00092d3900bef64b41dce3d4 = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {
+  "minZoom": 0,
+  "maxZoom": 19,
+  "maxNativeZoom": 19,
+  "noWrap": false,
+  "attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors",
+  "subdomains": "abc",
+  "detectRetina": false,
+  "tms": false,
+  "opacity": 1,
+}
+
+            );
+        
+    
+            tile_layer_f91e3e5c00092d3900bef64b41dce3d4.addTo(map_8bc43bd902b7dcd30bd9abf6886beb4c);
+        
+    
+            var marker_c13e1414eea0aba1427e065695e5dd28 = L.marker(
+                [-9.065192434847171, -44.34976568682047],
+                {
+}
+            ).addTo(map_8bc43bd902b7dcd30bd9abf6886beb4c);
+        
+    
+        var popup_6a548885952848380cc5bdeb6c516ebc = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_321b79ef2e4361d7a03d1368f3f96d39 = $(`<div id="html_321b79ef2e4361d7a03d1368f3f96d39" style="width: 100.0%; height: 100.0%;">CNES: 9724311<br>Nome Fantasia: UBS JOSE MARCOS DOS SANTOS MEDRADO MARIQUINHO<br>Razão Social: SMS DE BOM JESUS</div>`)[0];
+                popup_6a548885952848380cc5bdeb6c516ebc.setContent(html_321b79ef2e4361d7a03d1368f3f96d39);
+            
+        
+
+        marker_c13e1414eea0aba1427e065695e5dd28.bindPopup(popup_6a548885952848380cc5bdeb6c516ebc)
+        ;
+
+        
+    
+    
+            var marker_3e0b95f55c3ae55b13aa4dc8f3e22c2f = L.marker(
+                [-9.061766112748762, -44.36219261696824],
+                {
+}
+            ).addTo(map_8bc43bd902b7dcd30bd9abf6886beb4c);
+        
+    
+        var popup_a5f7b8ce23325aa6520f5a8fe4e9f643 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_780d1ea989ed4af7c14a15416a4c62d2 = $(`<div id="html_780d1ea989ed4af7c14a15416a4c62d2" style="width: 100.0%; height: 100.0%;">CNES: 7538715<br>Nome Fantasia: CENTRO INTEGRADO DE SAUDE CIS<br>Razão Social: MUNICIPIO DE BOM JESUS SECRETARIA DE SAUDE</div>`)[0];
+                popup_a5f7b8ce23325aa6520f5a8fe4e9f643.setContent(html_780d1ea989ed4af7c14a15416a4c62d2);
+            
+        
+
+        marker_3e0b95f55c3ae55b13aa4dc8f3e22c2f.bindPopup(popup_a5f7b8ce23325aa6520f5a8fe4e9f643)
+        ;
+
+        
+    
+    
+            var marker_cefd443cd189693f9b6c923830489aa8 = L.marker(
+                [-9.073839399558324, -44.35566434395315],
+                {
+}
+            ).addTo(map_8bc43bd902b7dcd30bd9abf6886beb4c);
+        
+    
+        var popup_f13668f4ebee08ffaba3fa56a57c9c41 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_f8fdcc9f3a94b9cdf2eef0d8b2a2ae00 = $(`<div id="html_f8fdcc9f3a94b9cdf2eef0d8b2a2ae00" style="width: 100.0%; height: 100.0%;">CNES: 3651878<br>Nome Fantasia: CAPS DE BOM JESUS<br>Razão Social: BOM JESUS PREFEITURA</div>`)[0];
+                popup_f13668f4ebee08ffaba3fa56a57c9c41.setContent(html_f8fdcc9f3a94b9cdf2eef0d8b2a2ae00);
+            
+        
+
+        marker_cefd443cd189693f9b6c923830489aa8.bindPopup(popup_f13668f4ebee08ffaba3fa56a57c9c41)
+        ;
+
+        
+    
+    
+            var marker_d6d22dd74dbceea047a623b0062c61f3 = L.marker(
+                [-9.211060923576369, -44.44199478879008],
+                {
+}
+            ).addTo(map_8bc43bd902b7dcd30bd9abf6886beb4c);
+        
+    
+        var popup_5c02130458a7102f9c1b47d8e656db1b = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_8bdf9eb63d822ab5d12c9dc5cd0658e2 = $(`<div id="html_8bdf9eb63d822ab5d12c9dc5cd0658e2" style="width: 100.0%; height: 100.0%;">CNES: 2367602<br>Nome Fantasia: UBS JOSE NUNES DE VASCONCELOS<br>Razão Social: SMS DE BOM JESUS</div>`)[0];
+                popup_5c02130458a7102f9c1b47d8e656db1b.setContent(html_8bdf9eb63d822ab5d12c9dc5cd0658e2);
+            
+        
+
+        marker_d6d22dd74dbceea047a623b0062c61f3.bindPopup(popup_5c02130458a7102f9c1b47d8e656db1b)
+        ;
+
+        
+    
+    
+            var marker_84515bc4639ab535ebd31f6944438847 = L.marker(
+                [-9.076144451430212, -44.363374532311354],
+                {
+}
+            ).addTo(map_8bc43bd902b7dcd30bd9abf6886beb4c);
+        
+    
+        var popup_71a72b9b8db8c76cca959e7f6458e5c7 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_8e667b396a867ffe0e4b2f60023635b2 = $(`<div id="html_8e667b396a867ffe0e4b2f60023635b2" style="width: 100.0%; height: 100.0%;">CNES: 2367610<br>Nome Fantasia: UBS DR RAIMUNDO SANTOS<br>Razão Social: SMS DE BOM JESUS</div>`)[0];
+                popup_71a72b9b8db8c76cca959e7f6458e5c7.setContent(html_8e667b396a867ffe0e4b2f60023635b2);
+            
+        
+
+        marker_84515bc4639ab535ebd31f6944438847.bindPopup(popup_71a72b9b8db8c76cca959e7f6458e5c7)
+        ;
+
+        
+    
+    
+            var marker_a91e971200a29d7e196623ca8f6af264 = L.marker(
+                [-9.062307282579939, -44.36549564395349],
+                {
+}
+            ).addTo(map_8bc43bd902b7dcd30bd9abf6886beb4c);
+        
+    
+        var popup_75446d5d7cea0b6fc15d15117bd83639 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_b5f476dd72d31eee989b7251c6c3974c = $(`<div id="html_b5f476dd72d31eee989b7251c6c3974c" style="width: 100.0%; height: 100.0%;">CNES: 6413722<br>Nome Fantasia: UBS JAQUELINE ROSAL NEGREIROS<br>Razão Social: SECRETARIMA MUNICIPAL DE SAUDE DE BOM JESUS</div>`)[0];
+                popup_75446d5d7cea0b6fc15d15117bd83639.setContent(html_b5f476dd72d31eee989b7251c6c3974c);
+            
+        
+
+        marker_a91e971200a29d7e196623ca8f6af264.bindPopup(popup_75446d5d7cea0b6fc15d15117bd83639)
+        ;
+
+        
+    
+    
+            var marker_3d40b3766546c7742f83a72fcc989b7a = L.marker(
+                [-9.070740503071892, -44.36690217463968],
+                {
+}
+            ).addTo(map_8bc43bd902b7dcd30bd9abf6886beb4c);
+        
+    
+        var popup_541dad22a0eae15fc8ce515a1db5bbd6 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_6fbc3b919cca63288add4daa88f7b0cb = $(`<div id="html_6fbc3b919cca63288add4daa88f7b0cb" style="width: 100.0%; height: 100.0%;">CNES: 9065849<br>Nome Fantasia: UNID BASICA DE SAUDE RAIMUNDO NONATO NUNES DA SILVA<br>Razão Social: SMS DE BOM JESUS</div>`)[0];
+                popup_541dad22a0eae15fc8ce515a1db5bbd6.setContent(html_6fbc3b919cca63288add4daa88f7b0cb);
+            
+        
+
+        marker_3d40b3766546c7742f83a72fcc989b7a.bindPopup(popup_541dad22a0eae15fc8ce515a1db5bbd6)
+        ;
+
+        
+    
+    
+            var marker_bc27a770aed2f5fb6cd35db5ab3f2a37 = L.marker(
+                [-9.079804186253673, -44.37062237649033],
+                {
+}
+            ).addTo(map_8bc43bd902b7dcd30bd9abf6886beb4c);
+        
+    
+        var popup_90f42c498f883d6736cccf91df63ac65 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_8cde0df31781cef135c4ac54f528de3a = $(`<div id="html_8cde0df31781cef135c4ac54f528de3a" style="width: 100.0%; height: 100.0%;">CNES: 0066370<br>Nome Fantasia: UBS ITANE FRANCISCO<br>Razão Social: SMS DE BOM JESUS</div>`)[0];
+                popup_90f42c498f883d6736cccf91df63ac65.setContent(html_8cde0df31781cef135c4ac54f528de3a);
+            
+        
+
+        marker_bc27a770aed2f5fb6cd35db5ab3f2a37.bindPopup(popup_90f42c498f883d6736cccf91df63ac65)
+        ;
+
+        
+    
+    
+            var marker_c9462cf8c6737a5ec6e37369f6d91012 = L.marker(
+                [-9.36124849065337, -44.529189514411165],
+                {
+}
+            ).addTo(map_8bc43bd902b7dcd30bd9abf6886beb4c);
+        
+    
+        var popup_2f9a513f066e71754f035b31d4d55dcb = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_91ffc40fc25a2ad67a67e5e0e85d1fa3 = $(`<div id="html_91ffc40fc25a2ad67a67e5e0e85d1fa3" style="width: 100.0%; height: 100.0%;">CNES: 2367629<br>Nome Fantasia: PS DE MUCAMBINHO<br>Razão Social: SMS DE BOM JESUS</div>`)[0];
+                popup_2f9a513f066e71754f035b31d4d55dcb.setContent(html_91ffc40fc25a2ad67a67e5e0e85d1fa3);
+            
+        
+
+        marker_c9462cf8c6737a5ec6e37369f6d91012.bindPopup(popup_2f9a513f066e71754f035b31d4d55dcb)
+        ;
+
+        
+    
+    
+            var marker_7c029a5e40259413361056f0e98294a5 = L.marker(
+                [-9.072027066224818, -44.362389805326046],
+                {
+}
+            ).addTo(map_8bc43bd902b7dcd30bd9abf6886beb4c);
+        
+    
+        var popup_cbba813bb41561299500af9519c2ce73 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_295a84f4af5d4349bbcafdc2d5c1247c = $(`<div id="html_295a84f4af5d4349bbcafdc2d5c1247c" style="width: 100.0%; height: 100.0%;">CNES: 2367572<br>Nome Fantasia: UBS TERTULIANO LUSTOSA<br>Razão Social: SMS DE BOM JESUS</div>`)[0];
+                popup_cbba813bb41561299500af9519c2ce73.setContent(html_295a84f4af5d4349bbcafdc2d5c1247c);
+            
+        
+
+        marker_7c029a5e40259413361056f0e98294a5.bindPopup(popup_cbba813bb41561299500af9519c2ce73)
+        ;
+
+        
+    
+    
+            var marker_a4f4b9e1b5287540db97520b65af5eb0 = L.marker(
+                [-9.072835461157972, -44.35117129792385],
+                {
+}
+            ).addTo(map_8bc43bd902b7dcd30bd9abf6886beb4c);
+        
+    
+        var popup_3c874299ced691f08542530ec792efd5 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_cefc896c022328feca5f735ff1ed8765 = $(`<div id="html_cefc896c022328feca5f735ff1ed8765" style="width: 100.0%; height: 100.0%;">CNES: 2323117<br>Nome Fantasia: UBS MIRAMAR<br>Razão Social: SECREATRIA MUNICIPAL DE SAUDE DE BOM JESUS</div>`)[0];
+                popup_3c874299ced691f08542530ec792efd5.setContent(html_cefc896c022328feca5f735ff1ed8765);
+            
+        
+
+        marker_a4f4b9e1b5287540db97520b65af5eb0.bindPopup(popup_3c874299ced691f08542530ec792efd5)
+        ;
+
+        
+    
+    
+            var marker_6decd934532ba2b6a554519e93a868b5 = L.marker(
+                [-9.169750710537066, -44.40194730833758],
+                {
+}
+            ).addTo(map_8bc43bd902b7dcd30bd9abf6886beb4c);
+        
+    
+        var popup_cfbf071b69274d7d6936b2412b7b90a7 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_ef6b5c724d83d73aa3b19c5d5549e629 = $(`<div id="html_ef6b5c724d83d73aa3b19c5d5549e629" style="width: 100.0%; height: 100.0%;">CNES: 2367580<br>Nome Fantasia: PS PIRIPIRI<br>Razão Social: SECRETARIA MUNICIPAL DE SAUDE DE BOM JESUS</div>`)[0];
+                popup_cfbf071b69274d7d6936b2412b7b90a7.setContent(html_ef6b5c724d83d73aa3b19c5d5549e629);
+            
+        
+
+        marker_6decd934532ba2b6a554519e93a868b5.bindPopup(popup_cfbf071b69274d7d6936b2412b7b90a7)
+        ;
+
+        
+    
+    
+            var marker_6e43f960cb6871d0f227b97fb09c875b = L.marker(
+                [-9.081786560010245, -44.35841802464951],
+                {
+}
+            ).addTo(map_8bc43bd902b7dcd30bd9abf6886beb4c);
+        
+    
+        var popup_1ed07567721dcf39578a65f57d365924 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_ee1ee27b60b89169bc3ea6466c3e53f4 = $(`<div id="html_ee1ee27b60b89169bc3ea6466c3e53f4" style="width: 100.0%; height: 100.0%;">CNES: 7501390<br>Nome Fantasia: CAPS AD II REGIONAL DE BOM JESUS<br>Razão Social: SECRETARIA MUNICIPAL DE SAUDE DE BOM JESUS</div>`)[0];
+                popup_1ed07567721dcf39578a65f57d365924.setContent(html_ee1ee27b60b89169bc3ea6466c3e53f4);
+            
+        
+
+        marker_6e43f960cb6871d0f227b97fb09c875b.bindPopup(popup_1ed07567721dcf39578a65f57d365924)
+        ;
+
+        
+    
+    
+            var marker_e9e202224e49dff3a4214c9af585d75a = L.marker(
+                [-8.97667161044772, -44.316290752252456],
+                {
+}
+            ).addTo(map_8bc43bd902b7dcd30bd9abf6886beb4c);
+        
+    
+        var popup_df528d10e48bf7c6b30d66f5b8e59d22 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_9db2abc5494b71b0e9b885bb1c0e2af1 = $(`<div id="html_9db2abc5494b71b0e9b885bb1c0e2af1" style="width: 100.0%; height: 100.0%;">CNES: 7850166<br>Nome Fantasia: UBS RAIMUNDA NONATA MEDEIROS SANTIAGO<br>Razão Social: SECRETARIA MUNICIPAL DE SAUDE DE BOM JESUS</div>`)[0];
+                popup_df528d10e48bf7c6b30d66f5b8e59d22.setContent(html_9db2abc5494b71b0e9b885bb1c0e2af1);
+            
+        
+
+        marker_e9e202224e49dff3a4214c9af585d75a.bindPopup(popup_df528d10e48bf7c6b30d66f5b8e59d22)
+        ;
+
+        
+    
+    
+            var marker_6edfdabc12e0e379f3a5d40b5f12a1d8 = L.marker(
+                [-9.062179443860284, -44.357727411514965],
+                {
+}
+            ).addTo(map_8bc43bd902b7dcd30bd9abf6886beb4c);
+        
+    
+        var popup_b8726c8344e393822e97f8e31f9d1cea = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_f2bcd0145612cae5dba76611e20f1ff7 = $(`<div id="html_f2bcd0145612cae5dba76611e20f1ff7" style="width: 100.0%; height: 100.0%;">CNES: 2367645<br>Nome Fantasia: UBS HELIO FIGUEREDO DA FONSECA<br>Razão Social: SMS DE BOM JESUS</div>`)[0];
+                popup_b8726c8344e393822e97f8e31f9d1cea.setContent(html_f2bcd0145612cae5dba76611e20f1ff7);
+            
+        
+
+        marker_6edfdabc12e0e379f3a5d40b5f12a1d8.bindPopup(popup_b8726c8344e393822e97f8e31f9d1cea)
+        ;
+
+        
+    
+    
+            var marker_17aac77519dc11391853146f0100766f = L.marker(
+                [-9.072316387887032, -44.360934545803715],
+                {
+}
+            ).addTo(map_8bc43bd902b7dcd30bd9abf6886beb4c);
+        
+    
+        var popup_23782adab72491e7dbda0d266e63b867 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_fe066c423caab9190cc8b3777aaa1ae4 = $(`<div id="html_fe066c423caab9190cc8b3777aaa1ae4" style="width: 100.0%; height: 100.0%;">CNES: 4319133<br>Nome Fantasia: LABORATORIO DE ANALISES CLINICAS MUNICIPAL B JESUS<br>Razão Social: SECRETARIA MUNICIPAL DE SAUDE DE BOM JESUS</div>`)[0];
+                popup_23782adab72491e7dbda0d266e63b867.setContent(html_fe066c423caab9190cc8b3777aaa1ae4);
+            
+        
+
+        marker_17aac77519dc11391853146f0100766f.bindPopup(popup_23782adab72491e7dbda0d266e63b867)
+        ;
+
+        
+    
+    
+            var marker_9176555d90e52eb8cc1525fe966f9bed = L.marker(
+                [-9.056200654794198, -44.37716806114741],
+                {
+}
+            ).addTo(map_8bc43bd902b7dcd30bd9abf6886beb4c);
+        
+    
+        var popup_2242bb8b8a84af34cf3f1ccbff73b79e = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_61e5fdbcd7f61b660c89051381643611 = $(`<div id="html_61e5fdbcd7f61b660c89051381643611" style="width: 100.0%; height: 100.0%;">CNES: 4622871<br>Nome Fantasia: UBS EDILENE MOUSINHO CARVALHO<br>Razão Social: MUNICIPIO DE BOM JESUS SECRETARIA DE SAUDE</div>`)[0];
+                popup_2242bb8b8a84af34cf3f1ccbff73b79e.setContent(html_61e5fdbcd7f61b660c89051381643611);
+            
+        
+
+        marker_9176555d90e52eb8cc1525fe966f9bed.bindPopup(popup_2242bb8b8a84af34cf3f1ccbff73b79e)
+        ;
+
+        
+    
+    
+            tile_layer_f91e3e5c00092d3900bef64b41dce3d4.addTo(map_8bc43bd902b7dcd30bd9abf6886beb4c);
+        
+</script>
+</html>
